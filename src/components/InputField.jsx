@@ -1,8 +1,8 @@
 import React from 'react'
 
-const InputField = ({todo,setTodo}) => {
+const InputField = ({todo,setTodo,handleSubmit}) => {
   return (
-      <form className="input">
+      <form className="input" onSubmit={handleSubmit}>
         <input type = "input"
                value = {todo}
                onChange={
