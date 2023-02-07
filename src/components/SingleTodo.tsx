@@ -17,7 +17,7 @@ const SingleTodo = ({ todo, todos, setTodos, completed, setCompleted }: Props) =
     ));
     if (event.target.checked) {
       setTodos(todos.filter((todo) => todo.id !== id));
-      setCompleted([...completed, { id: id, todo: event.target.value, isDone: true }]);
+      setCompleted([...completed, { id: Date.now(), todo: event.target.value, isDone: true }]);
     }
   };
   return (
@@ -26,7 +26,7 @@ const SingleTodo = ({ todo, todos, setTodos, completed, setCompleted }: Props) =
              onChange={(event) => handleDone(todo.id, event)} />
       {
         todo.isDone ? (
-          <s className="text-todo">
+          <s className="text-done">
             {todo.todo}
           </s>
         ) : (

@@ -1,4 +1,4 @@
-.single-todo{
+.single-todo {
     /* Frame 2 */
     display: flex;
     padding: 20px;
@@ -10,19 +10,64 @@
     background: #DF7C7C;
     border-radius: 9px;
 }
-.todos{
+
+.todos {
     /*background: dimgrey;*/
 }
-.text-todo{
+
+.text-todo {
     align-content: flex-start;
     text-align: left;
+    font-size: 20px;
+
 
 }
-.todos-layout{
+
+.todos-layout {
     position: relative;
     display: inline-grid;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
+}
+
+.input-field {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: #2f74c0;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+}
+
+.input-field:hover {
+    background-color: #388ae2;
+}
+
+.input-field:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+}
+
+.input-box {
+    width: 250px;
+    height: 15px;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black;
+}
+
+.input-box:focus {
+    box-shadow: 0 0 10px 1000px rgba(72, 72, 72, 0.5);
+    outline: none;
 }

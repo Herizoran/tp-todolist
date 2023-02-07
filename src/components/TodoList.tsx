@@ -39,7 +39,6 @@ const TodoList = ({ todos, setTodos, completed, setCompleted }: Props) => {
               completed={completed.sort((a, b) => b.id - a.id)}
               setCompleted={setCompleted}
               key={task.id}
-
             />
           ))}
         </div>
