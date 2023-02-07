@@ -21,7 +21,7 @@ const SingleTodo = ({ todo, todos, setTodos, completed, setCompleted }: Props) =
     }
   };
   return (
-    <form className="single-todo">
+    <form className="single-todo" data-testid="todo-item">
       <input className="single-checkbox" type={"checkbox"} value={todo.todo}
              onChange={(event) => handleDone(todo.id, event)} />
       {

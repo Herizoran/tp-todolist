@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot TodoList component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <span
+      class="heading"
+    >
+      TODOLIST
+    </span>
+    <form
+      class="input"
+    >
+      <input
+        class="input-box"
+        data-testid="todo-input"
+        placeholder="Enter Task"
+        type="input"
+        value=""
+      />
+    </form>
+    <div
+      class="todos-layout"
+    >
+      <div
+        class="todos-active"
+      >
+        <h2>
+          ACTIVE LIST
+        </h2>
+        <div
+          class="todos"
+        />
+      </div>
+      <div
+        class="todos-done"
+      >
+        <h2>
+          DONE
+        </h2>
+        <div
+          class="todos"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TodoList component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <span
+      class="heading"
+    >
+      TODOLIST
+    </span>
+    <form
+      class="input"
+    >
+      <input
+        class="input-box"
+        data-testid="todo-input"
+        placeholder="Enter Task"
+        type="input"
+        value=""
+      />
+    </form>
+    <div
+      class="todos-layout"
+    >
+      <div
+        class="todos-active"
+      >
+        <h2>
+          ACTIVE LIST
+        </h2>
+        <div
+          class="todos"
+        />
+      </div>
+      <div
+        class="todos-done"
+      >
+        <h2>
+          DONE
+        </h2>
+        <div
+          class="todos"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

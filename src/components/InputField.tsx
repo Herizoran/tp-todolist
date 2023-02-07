@@ -14,6 +14,7 @@ const InputField = ({ todo, setTodo, handleSubmit }: Props) => {
              onChange={
                (event) => setTodo(event.target.value)
              }
+             data-testid="todo-input"
              placeholder="Enter Task" className="input-box" />
     </form>
   );
